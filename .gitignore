@@ -1,0 +1,45 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Django database
+db.sqlite3
+db.sqlite3-journal
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js dependencies
+node_modules/
+
+# React build files
+dist/
+build/
+
+# PyCharm and VS Code
+.idea/
+.vscode/
+
+# Postman local files and exports
+.postman/
+postman/
+Build Appointment System (POSTMAN)_files/
+Build Appointment System (POSTMAN).html
+
+# Log files
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Django generated static files
+staticfiles/
